@@ -1,0 +1,354 @@
+
+/*.items.Navbar.Brand{
+  width: 99.43px;
+  height: 15.47px;
+  top: 7.75px;
+  left: -0.17px;
+  gap: 0px;
+  opacity: 0px;
+  background: #101828;
+  ;
+  }
+  .items.Nav.Link{ 
+    background: #475467;
+  }*/
+  .brand{
+    display: flex;
+    justify-content: center;
+    border: 1px solid #E9D7FE;
+    width: 380px;
+    color: #8259e2;
+    padding: 4px;
+    margin: 10px;
+    border-radius: 18px;
+    background-color: #dfd1ef;
+  }
+  #img1{
+    width:1200px;
+    border:10px solid black;
+    border-radius:20px;
+    border-bottom:none;
+  }
+  .btn1{
+    padding: 7px;
+    margin:5px;
+    width: 8%;
+    border-radius: 10px;
+    border: 1px solid #D0D5DD;  
+    background-color: white; 
+  } 
+  .btn2{
+    padding: 7px;
+    margin:5px;
+    width: 8%;
+    border-radius: 10px;
+    border: 1px solid #D0D5DD;  
+    background-color: #794ed6;
+    color: white;
+    border: none;
+  } 
+  .h1{
+    font-size:60px;
+  } 
+  .p1{
+    font-size: 20px;
+    color:#475467 ;
+  } 
+  .spans{
+    margin:20px ;
+    font-size:20px ;
+    font-weight:bold ;
+  } 
+  .p2{
+    color:#6941C6 ;
+    font-weight: bold;
+  }
+  .testsection{
+    background-color:#F9FAFB ;
+    height:600px ;
+    margin-top:10% ;
+  }
+  .desk{
+    position: absolute;
+    top:65px;
+    left:350px;
+    width:865px
+  }
+  .deskmock{
+    position: absolute;
+    top:100px;
+    left:400px;
+  }
+  .mobile{
+    position: absolute;
+    top:160px;
+    left:360px;
+  }
+  .mobilemock{
+    position: absolute;
+    top:175px;
+    left:370px;
+    border-radius: 15px;
+  }
+  .mobilesection{
+    display: inline-block;
+    position: relative;
+
+  }
+  .qanda{
+   margin-top:80px;
+   margin-left:400px ;
+   width:50% ;
+  }
+  .btn3{
+   color: white;
+   padding: 8px;
+   border: none;
+   background-color: #7F56D9;
+   border-radius: 15px;
+   float: right;
+   margin-top: -10%;
+  }
+  .footer{
+    background-color:#F9FAFB ;
+    height: 200px;
+  }
+  .btn4{
+   color: black;
+   padding: 8px;
+   border: 1px solid black;
+   background-color: white;
+   border-radius: 10px;
+   margin: 8px;
+
+  }
+  .btn5{
+    color: white;
+    padding: 8px;
+    border: none;
+    background-color:#7F56D9;
+    border-radius: 10px;
+    
+  }
+  .midimage{
+    position:relative;
+    display: inline-block;
+    
+  }
+  .footersections{
+    display: grid;
+    margin-left: 15%;
+    grid-template-columns: 200px 200px 200px 200px 200px 200px;
+  }
+  #midimgbottom{
+    margin-left: 10%;
+     margin-top: 50%;
+  }
+  .spans{
+    margin-left: 700px;
+  }
+  .mainheading{
+    position: relative;
+    margin-top: 80px;
+  }
+  #container{
+    margin-left: 10%;
+  }
+  .icons{
+    display: grid;
+    grid-template-columns: 150px 150px 150px 150px 150px 150px;
+    margin-right: 85%;
+  }
+
+  @media only screen and (max-width: 667px) {
+
+    .mb-3 mb-md-0 text-body-secondary{
+      float: right;
+    }
+    #footer{
+     margin-left: 30px;
+    }
+   
+    #container{
+      margin-left: 20%;
+    }
+    #ppp{
+      margin-left: 13%;
+      width: 400px;
+    }
+    #avatar{
+      visibility:hidden;
+    }
+    .btn1{
+      width:110%;
+      margin-left: 35px;
+    }
+    .bg-body-tertiary{
+      width: 118%;
+    }
+    #img1{
+      width: 420px;
+      border-radius:10px;
+      border:5px solid black;
+      height: 300px;
+      margin-left: 17%;
+    }
+    .btn2{
+      width: 111%;
+      margin-left: 35px;
+    }
+    .h1{
+      font-size:50px;
+      margin-left: 0%;
+    }
+    .p1{
+      margin-left:20%;
+      width: 400px;
+    }
+    .d-flex gap-2 justify-content-center py-5{
+      display: flex;
+    }
+    .spans{
+      font-size: 20px;
+      margin: 10px;
+      display:flex;
+      flex-wrap:wrap;
+    }
+    .icons{
+      display: grid;
+      grid-template-columns: 150px 150px;
+      margin-right: 100%;
+    }
+    .p3{
+      margin-left: 95px;
+    }
+    .h22{
+      margin-left:33%;
+      margin-bottom: 25px;
+    }
+    .p2{
+      margin-left: 35%;
+    }
+    .testsection{
+      margin-left:10%;
+      width: 425px;
+    }
+    .testsection1{
+      margin-top: 10%;
+    }
+    .desk{
+      visibility: hidden;
+      width: 50px;
+    }
+    .deskmock{
+      visibility: hidden;
+      width: 50px;
+    }
+    .mobile{
+      position: absolute;
+      top:15px;
+      left:100px;
+      visibility: hidden;
+      width: 20px;
+
+    }
+    .mobilemock{
+      position: relative;
+      visibility: hidden;
+      top:25px;
+    left:110px;
+    border-radius: 15px;
+    width: 20px;
+
+    }
+    .p11{
+      margin-left: 8%;
+      font-size: 20px;
+      color:gray
+    }
+    .mobilesection{
+      height: 70px;
+      margin-bottom:10%;
+      visibility: hidden;
+    }
+    .qanda{
+      margin-left: 100px;
+      width: 350px;
+    }
+    .btn3{
+   visibility:hidden;
+  
+    }
+    .footer{
+      width: 430px;
+    }
+    .btn4{
+      width: 90%;
+    }
+    .btn5{
+      width: 90%;
+    }
+    #footersection{
+      width: 50px;
+      display: inline-block;
+      margin-left: 20%;
+    }
+    #midimgbottom{
+      margin-left: 25%;
+       margin-top: 0%;
+       width: 350px;
+    }
+    
+    .mb-3 mb-md-0 text-body-secondary{
+      margin-top:40px;
+    }
+    .brand{
+      display: flex;
+    justify-content: center;
+    border: 1px solid #d0b6ee;
+    width: 380px;
+    color: #6941C6;
+    padding: 4px;
+    margin: 10px;
+    border-radius: 18px;
+    margin-left: 0%;
+    background-color: #d0b6ee;
+    }
+    .midimage{
+      background-image: url('../src/Images/iPhone\ 12\ Pro\ mockup.png');
+      background-size: cover;
+      margin-left: 100px;
+      margin-top: 40%;
+      height: 400px;
+      width: 400px;
+      
+    }
+    .footersections{
+      display: grid;
+      margin-left: 30%;
+      grid-template-columns: 200px 200px ;
+    }
+    .midimgbottom{
+      margin-top: -40px;
+    }
+    .spans{
+      margin-left: 300px;
+    }
+    #blogpost{
+      width: 500px;
+    }
+    #navs{
+      width: 138%;
+    }
+    .mainheading{
+      margin-left: 70px;
+      width: 100%;
+    }
+    .footer{
+      margin-left: 0%;
+      width: 500px;
+    }
+    .container{
+      margin-left: 30px;
+    }
+   }
